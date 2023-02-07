@@ -1,29 +1,32 @@
+/* this code does not appear in the html file and may not be needed here */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* this code also does not appear in the html file as a class */
 body {
     background-color: #d9dcd6;
 }
-
+/* used for the name logo at the top left corner and the links in the same row */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* used for the Horis and n part of the title */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* part of the title but with slightly different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* identifies the location and properties of items under this tag */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +34,28 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* might not be needed since is displays nothing */
 .header div ul {
     list-style-type: none;
 }
 
+/* descrives the properties of UL and LI under the header class */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* might not be needed since its not tagges in the html */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* this tag identifies font size for any item under the P tag */
 p {
     font-size: 16px;
 }
 
+/* identifies the stle and location of the boxes and images */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +64,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* to find the location and style of Search Engine Optimization  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* location of the Online Reputation Management box */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* identifies properties for the boxes */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* identifies the location and properties of items under this tag*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +93,59 @@ p {
     background-color: #2589bd;
 }
 
+/* font and color items in this tag */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* font and color items in this tag */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* font and color and location of items in this tag */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* font and color items in this tag */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* font and color items in this tag */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* font and color items in this tag */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* creates a border around the image */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* font and color items in this tag */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* font and color items in this tag */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* the styling of the links on the top right of the page */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +154,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* the styling of the links on the top right of the page */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +163,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* the styling of the links on the top right of the page */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +172,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* specific image size for this tag*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* specific image size for this tag */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* specific image size for this tag */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* specific location and size for h2 for this tag */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* specific image size for this tag */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* specific image size for this tag */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* seen at the bottom of the page this tag identifies location and font */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* this tag identifies location and font size under the footer */
 .footer h2 {
     font-size: 20px;
 }
