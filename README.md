@@ -7,3 +7,7 @@ Added notes to each of the CSS tags and noted why some were changed or deleted
 Link to the repository on github (https://github.com/escotoj/horiseon_refactor)
 Modified the html and CSS code to be more simple by combinig elements while keeping the same image and link function
 Push through to github through my terminal 
+Submited my first attempt at recieved a 89
+Now resubmitting after revising, added links and including screentshot in repo
+
+![This is an image](assets/images/Screenshot-repo.png)
